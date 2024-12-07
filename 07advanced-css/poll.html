@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>All Sanrio: Home</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn About Sanrio Characters">
+        <meta name="author" content="Dafne Gonzalez">
+
+        <link rel="stylesheet" href="san.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Quicksand:wght@500..700&display=swap" rel="stylesheet">
+        
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        
+    </head>
+
+    <body>
+        
+
+
+
+        <!--Start of the page header -->
+        <header>
+        
+            <img src="images/cloud.png" alt="site logo" width="100" height="65">
+       
+            <div>
+                <h1>Sanrio Characters</h1>
+                <p>Well Known and Obscure Sanrio Characters</p>
+            </div>
+
+        </header>
+
+
+
+
+        <!--Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">About Sanrio</a></li>
+
+                <li><a href="popular.html">Popular Sanrio Characters</a></li>
+
+                <li><a href="gallery.html">Sanrio Character Images</a></li>
+                <li class="online"><a href="poll.html">Giveaway</a></li>
+            </ul>
+        </nav>
+
+
+
+
+        <!--Start of the page content -->
+        <main>
+            <h1>Enter To Win A Sanrio Mystery!</h1>
+
+            <form method="get" class="myForm" action="thanks.html">
+            
+            <fieldset>
+                <legend>Discovery? </legend>
+                <label>How did you hear about this giveaway?>
+                <select name="click">
+                <option value="none">Please Select</option>
+                <option value="online">I heard about this online.</option>
+                <option value="A Person">Someone I know told me about this.</option>
+                <option value="other">I hear about his giveaway a different way.</option>
+                </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Where are you located? </legend>
+                <label><input type="radio" name="method" value="usa">U.S.A</label>
+                <label><input type="radio" name="method" value="north">North America</label>
+                <label><input type="radio" name="method" value="other">Other Region</label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Phone Number* <input type="tel" name="phone" required placeholder="801-555-5555"></label>
+                <label>Email*<input type="email" name="email"
+                required></label>
+            </fieldset>
+
+            <fieldset>
+            <legend>What is your preffered prize?</legend>
+            <label><input type="checkbox" name="stickers" value="chosen"> Sanrio Stickers</label>
+            <label><input type="checkbox" name="plush" value="chosen"> Sanrio Plush</label>
+            <label><input type="checkbox" name="figure" value="chosen"> Sanrio Figurine</label>
+            <label><input type="checkbox" name="other" value="chosen"> Other(Please eneter in comments.)</label>
+            <label><input type="checkbox" name="suprise" value="chosen"> Suprise Me!</label>
+            </fieldset>
+
+
+            <label>Comments
+                <textarea name="Comments"></textarea>
+            </label>
+    
+            <input type="submit" value="Complete Entry">
+            </form>
+
+        </main>
+
+
+        <!--Start of the page footer -->
+        <footer>
+        <p>&copy; 2024 &bull; Dafne Gonzalez &bull; <a href="mailto:10841388@uvu.edu">Email Us</a></p>
+        </footer>
+
+
+    </body>
+</html>
